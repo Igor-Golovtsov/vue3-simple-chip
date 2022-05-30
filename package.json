@@ -3,6 +3,15 @@
   "version": "0.0.1",
   "description": "Vue3 simple chip component.",
   "author": "Igor Golovtsov",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Igor-Golovtsov/vue3-simple-chip.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Igor-Golovtsov/vue3-simple-chip/issues"
+  },
+  "homepage": "https://github.com/Igor-Golovtsov/vue3-simple-chip",
   "scripts": {
     "serve": "vue-cli-service serve dev/serve.ts",
     "build": "cross-env NODE_ENV=production rollup --config build/rollup.config.js",
@@ -86,7 +95,6 @@
     "vue3 chips component",
     "vue 3 chips component"
   ],
-  "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
