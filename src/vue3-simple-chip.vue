@@ -128,7 +128,7 @@ export default /* #__PURE__ */defineComponent({
       <slot
         name="button-icon"
       >
-        <img src="./assets/icons/trash.svg" alt="">
+        <img src="@/assets/icons/trash.svg" alt="">
       </slot>
     </div>
   </div>
