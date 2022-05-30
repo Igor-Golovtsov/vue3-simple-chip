@@ -45,9 +45,49 @@ export default defineComponent({
   <div id="app">
     <div class="vue3-simple-chips">
       <vue3-simple-chip
-        v-for="user in users"
-        :key="user.id"
-        :label="user.username"
+        label="Default"
+      />
+      <vue3-simple-chip
+        label="Primary and secondary color"
+        primary-color="teal"
+        secondary-color="white"
+      />
+      <vue3-simple-chip
+        label="Outlined"
+        primary-color="teal"
+        secondary-color="white"
+        outlined
+      />
+      <vue3-simple-chip
+        label="Rounded"
+        primary-color="#ffeb3b"
+        secondary-color="black"
+        rounded
+      />
+      <vue3-simple-chip
+        label="Dot color"
+        primary-color="teal"
+        secondary-color="white"
+        dot-color="red"
+        outlined
+      />
+      <vue3-simple-chip
+        label="Left icon"
+      >
+        <template #left-icon>
+          <img src="./assets/icons/search.svg" alt="">
+        </template>
+      </vue3-simple-chip>
+      <vue3-simple-chip
+        label="Right icon"
+      >
+        <template #right-icon>
+          <img src="./assets/icons/search.svg" alt="">
+        </template>
+      </vue3-simple-chip>
+      <vue3-simple-chip
+        label="Use button"
+        use-button
       />
     </div>
   </div>
