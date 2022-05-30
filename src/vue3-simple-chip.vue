@@ -137,7 +137,7 @@ export default /* #__PURE__ */defineComponent({
 <style scoped>
   .vue3-simple-chip {
     position: relative;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     padding-top: 4px;
     padding-right: var(--chip-padding-right);
@@ -150,6 +150,8 @@ export default /* #__PURE__ */defineComponent({
     border-radius: var(--chip-border-radius);
     background-color: var(--chip-background-color);
     color: var(--chip-color);
+    font-size: 16px;
+    line-height: 18px;
     text-align: center;
     cursor: default;
   }
